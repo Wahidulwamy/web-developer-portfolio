@@ -61,7 +61,7 @@ nav a{
 /* header related styles */
 .header{
    background-color: #fff8f3;
-   background-image: url('../images/header_bg.png') ;
+   background-image: url('../images/header_bg1.png') ;
    background-repeat: no-repeat;
    background-position: bottom right;
 
@@ -96,6 +96,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin:80px ;
+}
 
 /* about section styles */
 .about{
@@ -120,8 +123,28 @@ main{
 #what-i-do{
     padding: 30px 150px;
 }
-.skill-description{
+/* .skill-description{
     text-align: left;
     width: 14%;
     color: #757575;
+} */
+.skills-container{
+    display: flex;
+    gap: 20px;
+}
+
+.skill{
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 20px 50px 0 rgb(0, 0, 0, 0.06);
+    
+}
+.skill-description{
+    color: #757575;
+}
+/* Resume section title */
+.resume-column-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
 }
